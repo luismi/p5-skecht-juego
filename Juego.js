@@ -69,7 +69,7 @@ function draw() {
   // Display the number of collisions
   fill(0);
   text("Vidas: " + parseInt(vidas/12), 10, 20);
-  
+  //Divido entre doce por que cada vez que colisionean me da 12 impactos o como se diga
   if (vidas <= 1) {
     text("Partida terminada!", width / 2, height / 2);
     noLoop();
